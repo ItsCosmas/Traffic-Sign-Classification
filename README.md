@@ -10,8 +10,6 @@ The trained model file is a `.h5` file named `my_model.h5`
 
 ### Python Libraries
 
-Dillinger uses a number of open source projects to work properly:
-
 * Open CV
 * Numpy
 * Pandas
@@ -63,7 +61,8 @@ def better_model():
   
   return model
  ```
- ##### Overfitting and Underfitting
+##### Overfitting and Underfitting
+Reduced the number of training epochs to achieve standard results, I repeatedly redisgned and tweaked the model until I attained the right overfitting and underfitting metrics.
 ![Overfitting and Underfitting curve](https://github.com/ItsCosmas/Traffic-Sign-Classification/blob/master/overfitting.png) <br />
 ![Overfitting and Underfitting curve](https://github.com/ItsCosmas/Traffic-Sign-Classification/blob/master/underfitting.png) <br />
 
